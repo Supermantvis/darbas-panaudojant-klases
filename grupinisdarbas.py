@@ -56,13 +56,15 @@ class Biudzetas():
 biudzetas = Biudzetas()
 
 while True:
-    print(' 1 - Peržiūrėti ataskaitą.\n '   
+    print(
+    '1 - Peržiūrėti ataskaitą.\n '   
     '2 - Patikrinti esamą balansą. \n '
     '3 - Sukurti pajamų įrašą. \n '
     '4 - Sukurti išlaidų įrašą. \n '
-    '0 - Išeiti iš meniu. \n ')
+    '0 - Išeiti iš meniu. \n '
+    )
     pasirinkimas = int(input('Pasirinkite, ką norite atlikti: '))
-    
+
 
     if pasirinkimas == 1:
         clear()
